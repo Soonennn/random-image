@@ -12,5 +12,5 @@ var randomIndex = Math.floor(Math.random() * images.length);
 // Get the image element by its ID
 var imageElement = document.getElementById("randomImage");
 
-// Set the src attribute of the image element to the randomly selected image
+// Set the src attribute of the image element to the randomly selected image URL
 imageElement.src = images[randomIndex];
